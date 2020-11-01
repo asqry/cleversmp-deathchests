@@ -1,0 +1,13 @@
+name: CleverSMPDeath
+version: ${project.version}
+main: me.asqry.cleversmpdeath.Main
+api-version: 1.16
+prefix: [DEATH]
+load: STARTUP
+authors: [asqry]
+description: A custom death plugin made for the Clever SMP!
+
+commands:
+  togglecoords:
+    description: Toggle your coords being read back to you when you die
+    usage: /togglecoords
